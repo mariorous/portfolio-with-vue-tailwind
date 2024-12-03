@@ -5,17 +5,17 @@ import GitHubIcon from './icons/GitHubIcon.vue'
 
 <template>
     <header class="flex p-2 justify-center">
-        <nav class="flex justify-center">
+        <nav class="flex justify-center gap-8 mt-2">
             <div class="flex items-center">
-                <h1 class="text-2xl font-bold font-mplus">Mario López</h1>
+                <h1 class="text-xl font-bold font-mplus pb-1.5">Mario López</h1>
             </div>
             <div class="flex justify-between items-center gap-8">
                 <a href="">Works</a>
                 <a href="">Studies</a>
                 <a href="">Wallpapers</a>
-                <a href="" class="flex items-center"><GitHubIcon/>Source</a>
+                <a href="https://github.com/mariorous/portfolio-with-vue-tailwind" target="_blank" class="flex items-center gap-1"><GitHubIcon/>Source</a>
             </div>
-            <div>
+            <div class="flex ml-20 items-center">
                 <DarkModeIcon />
             </div>
         </nav>

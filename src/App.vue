@@ -15,7 +15,7 @@ import Footer from './components/Footer.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" /> -->
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
 <style scoped>
