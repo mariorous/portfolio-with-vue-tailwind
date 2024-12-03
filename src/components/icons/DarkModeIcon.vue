@@ -9,7 +9,7 @@
 
     <!-- sun icon -->
     <svg
-      class="swap-off h-10 w-10 fill-current"
+      class="swap-off h-9 w-9 bg-[#fad28c] p-2 rounded fill-[#202024]"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
     >
@@ -20,7 +20,7 @@
 
     <!-- moon icon -->
     <svg
-      class="swap-on h-10 w-10 fill-current"
+      class="swap-on h-9 w-9 bg-[#815ad6] p-2 rounded fill-[#fff]"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
     >
