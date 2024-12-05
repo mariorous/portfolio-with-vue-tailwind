@@ -1,15 +1,17 @@
 <script setup>
 import DarkModeIcon from './icons/DarkModeIcon.vue'
 import GitHubIcon from './icons/GitHubIcon.vue'
+import LogoIcon from './icons/LogoIcon.vue'
 </script>
 
 <template>
     <header class="flex p-2 justify-center">
         <nav class="flex justify-center gap-8 mt-2">
             <div class="flex items-center">
-                <h1 class="text-xl font-bold font-mplus pb-1.5">Mario López</h1>
+                <LogoIcon class="mx-1 pb-1" />
+                <h1 class="text-xl font-bold font-mplus pb-1">Mario López</h1>
             </div>
-            <div class="flex justify-between items-center gap-8">
+            <div class="flex justify-between items-center gap-6">
                 <a href="">Works</a>
                 <a href="">Studies</a>
                 <a href="">Wallpapers</a>
@@ -22,6 +24,6 @@ import GitHubIcon from './icons/GitHubIcon.vue'
     </header>
 </template>
 
-<style lang="">
+<style scoped>
     
 </style>

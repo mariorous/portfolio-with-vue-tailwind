@@ -2,10 +2,12 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import HomePage from './components/HomePage.vue';
 </script>
 
 <template>
   <Header />
+  <HomePage />
   <!-- <div>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -15,7 +17,7 @@ import Footer from './components/Footer.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" /> -->
-  <!-- <Footer /> -->
+  <Footer />
 </template>
 
 <style scoped>

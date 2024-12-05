@@ -31,4 +31,6 @@
   </label>
 </template>
 
-<style lang=""></style>
+<style scoped>
+
+</style>
