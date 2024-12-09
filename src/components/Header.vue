@@ -11,13 +11,13 @@ import LogoIcon from './icons/LogoIcon.vue'
                 <LogoIcon class="mx-1 pb-1" />
                 <h1 class="text-xl font-bold font-mplus pb-1">Mario López</h1>
             </div>
-            <div class="flex justify-between items-center gap-6">
+            <div class="hidden justify-between items-center gap-6 md:flex">
                 <a href="">Works</a>
                 <a href="">Studies</a>
                 <a href="">Wallpapers</a>
                 <a href="https://github.com/mariorous/portfolio-with-vue-tailwind" target="_blank" class="flex items-center gap-1"><GitHubIcon/>Source</a>
             </div>
-            <div class="flex ml-20 items-center">
+            <div class="hidden ml-20 items-center md:flex">
                 <DarkModeIcon />
             </div>
         </nav>

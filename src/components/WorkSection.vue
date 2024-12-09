@@ -11,7 +11,7 @@
         <p class="text-sm">
           <span class="text-[#525252]">Sep 2024 - Present</span>
           <span class="text-[#525252]"> | </span>
-          <span class="text-[#525252]">Frontend Developer</span>
+          <span class="text-[#525252]">Junior Full Stack Developer</span>
         </p>
       </div>
     </div>

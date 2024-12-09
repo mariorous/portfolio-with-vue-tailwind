@@ -8,7 +8,7 @@ import WorkSection from './WorkSection.vue';
       <img class="w-80" src="../assets/polar-bear.png">
     </div>
     <div class="bg-[#303033] px-10 py-4 rounded-lg">
-      <span>Hello, I'm an fullstack developer based in Spain!</span>
+      <span>Hello, I'm an full stack developer based in Spain!</span>
     </div>
     <div class="flex justify-between items-center">
       <div class="flex flex-col">
@@ -16,7 +16,7 @@ import WorkSection from './WorkSection.vue';
         <p>Junior Full Stack Developer / Designer</p>
       </div>
       <div>
-        <img class="w-24" src="../assets/polar-bear-3-svgrepo-com.svg" alt="">
+        <img class="w-24 h-24 bg-cover rounded-full object-cover object-center" src="../assets/profile_picture.jpg" alt="">
       </div>
     </div>
     <div class="flex flex-col gap-2">
@@ -34,7 +34,7 @@ import WorkSection from './WorkSection.vue';
             <p class="flex items-center justify-center text-white text-xs">2024</p>
           </div>
           <p>
-            I started working at <b>Mira Telecomunicacions</b> as a Junior Frontend Developer.
+            I started working at <b>Mira Telecomunicacions</b> as a Junior Full Stack Developer.
           </p>
         </div>
 
