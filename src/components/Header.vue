@@ -76,7 +76,7 @@ const isMenuOpen = ref(false); // Estado para controlar si el menú está abiert
     </header>
     <!-- Menú desplegable -->
     <div
-      class="flex flex-col gap-4 items-center w-full p-4 rounded-md shadow-lg transition-transform duration-300 ease-in-out origin-top"
+      class="absolute flex flex-col gap-4 items-center w-full p-4 rounded-md shadow-lg transition-transform duration-300 ease-in-out origin-top bg-[#242424]"
       :class="isMenuOpen ? 'scale-y-100' : 'scale-y-0'"
     >
         <a href="#" class="text-white hover:text-gray-500">Works</a>
