@@ -19,6 +19,12 @@ import WorkSection from './WorkSection.vue';
         <img class="w-24 h-24 bg-cover rounded-full object-cover object-center" src="../assets/profile_picture.jpg" alt="">
       </div>
     </div>
+    <div class="flex items-center justify-center">
+      <a href="/src/assets/mario-lopez-resume.pdf" download="mario-lopez-resume.pdf" class="rounded-lg px-5 py-2.5 overflow-hidden group bg-[#fad28c] relative hover:bg-gradient-to-r hover:from-[#fad28c] hover:to-[#fac66d] text-[#303033] font-bold hover:ring-2 hover:ring-offset-2 hover:ring-[#fac66d] transition-all ease-out duration-300">
+        <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+        <span class="relative">Download my resume</span>
+      </a>
+    </div>
     <div class="flex flex-col gap-2">
       <h3 class="text-xl font-bold font-mplus border-b-[6px] border-[#525252] w-12">Work</h3>
       <WorkSection />
